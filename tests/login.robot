@@ -18,4 +18,4 @@ Nao deve logar com senha incorreta
 
 # Deve exibir notificacao toaster se a senha nao for preenchida
 # Deve exibir notificacao toaster se o email nao for preenchido
-# Deve exibir notiticacao toaster se email e senha nao forem preenchidosS
+# Deve exibir notiticacao toaster se email e senha nao forem preenchidos
