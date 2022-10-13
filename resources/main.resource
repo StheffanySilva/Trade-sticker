@@ -1,10 +1,13 @@
 *** Settings ***
 Documentation        Arquivo principal do projeto
 
-Library        Browser
+Library         Browser
 
 Resource        pages/login.resource
 Resource        pages/dash.resource
+
+*** Variables ***
+${BROWSER}        chromium
 
 
 *** Keywords ***
@@ -14,7 +17,7 @@ Do Login
     User Logged In
 
 Start Test
-    New Browser        headless=False    browser=${BROWSER}
+    New Browser           headless=False    browser=${BROWSER}
 
 Finish Test
     #Thinking Time

@@ -14,10 +14,13 @@ Submit Credentials
     Click            css=button >> text=Entrar
 
 Toast Message Should Be
-    [Arguments]        ${expected_message}
+  [Arguments]     ${expected_message}
 
-    ${locator}
+  ${locator}
     ...            Set Variable
-    ...            css=.Toastify__toast-body div >> text=${expected_message}
+    ...            css=.Toastify__toast-body div >> text=${expected_message} 
+    Wait For Elements State      ${locator}     visible    5
+    # Wait For Elements State     css=.Toastify__toast-body div >> text=${expected_message}     visible     15
+
+
     
-    Wait For Elements State      ${locator}     visible    3S
