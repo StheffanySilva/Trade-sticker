@@ -20,6 +20,7 @@ Toast Message Should Be
     ...            Set Variable
     ...            css=.Toastify__toast-body div >> text=${expected_message} 
     Wait For Elements State      ${locator}     visible    5
+    
     # Wait For Elements State     css=.Toastify__toast-body div >> text=${expected_message}     visible     15
 
 
