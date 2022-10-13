@@ -34,4 +34,4 @@ Whatsapp Sticker Message
     Wait For Elements State
     ...                            css=p >> text=${expected_message}
     ...                            visible
-    ...                            10000
+    ...                             5000
