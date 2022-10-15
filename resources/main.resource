@@ -7,7 +7,7 @@ Resource        pages/login.resource
 Resource        pages/dash.resource
 
 *** Variables ***
-${BROWSER}        chromium
+${BROWSER}            chromium
 
 
 *** Keywords ***
