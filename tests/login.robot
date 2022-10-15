@@ -22,10 +22,6 @@ Nao deve logar com senha incorreta
     Submit Credentials        ${email_valido}    ${senha_invalida}
     Toast Message Should Be   Credenciais inválidas, tente novamente!
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b429f0b588172ef3d2c8ac1981431d677fba3cf7
 Deve exibir notificacao toaster se a senha nao for preenchida
       Go To Login Page
       Submit Credentials         ${email_valido}     ${EMPTY}
@@ -39,11 +35,5 @@ Deve exibir notificacao toaster se o email nao for preenchido
 Deve exibir notiticacao toaster se email e senha nao forem preenchidos
       Go To Login Page
       Submit Credentials         ${EMPTY}     ${EMPTY}
-<<<<<<< HEAD
       Toaster No Password e Email    Por favor, infome suas credencias!
 
-        
-=======
-      Toast Message Should Be    Por favor, infome suas credencias!
-
->>>>>>> b429f0b588172ef3d2c8ac1981431d677fba3cf7
