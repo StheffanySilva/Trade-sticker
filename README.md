@@ -41,6 +41,5 @@ rfbrowser init
 cd vtd2
 cd trade-sticker
 robot -d ./logs -v BROWSER:firefox tests/
-
 ```
 
